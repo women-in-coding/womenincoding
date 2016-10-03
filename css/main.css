@@ -1,6 +1,32 @@
+h1 {
+	color: #ABD7CA;
+}
+
+a {
+	color: #CA3B67;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p a {
+	text-decoration: none;
+}
+
 .about img {
 	width: 50%;
-	border-radius: 50%;
+	padding-bottom: 20px;
+}
+
+.previous-classes p {
+	line-height: 0px;
+}
+
+.previous-classes .date {
+	font-size: 14px;
+}
+
+p.date {
+	padding-bottom: 3px;
 }
 
 @media only screen and (min-width: 992px) {
