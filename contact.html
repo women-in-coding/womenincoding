@@ -43,7 +43,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Women in Coding</a>
+                <a class="navbar-brand" href="index.html"> &ltW/C&gt </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -130,14 +130,31 @@
         </div>
     </div>
 
-    <hr>
+
 
     <!-- Footer -->
-    <footer>
+   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
+                <div class="col-md-3 col-md-offset-2">
+                    <p class="footer-heading">Women in Coding</p>
+                    <p>Our mission is to provide resources and opportunities for those interested in coding and design in the local community.</p>
+                    <p class="contact-us"><a href="contact.html">Contact Us</a></p>
+
+                </div> <!--col-->
+
+                <div class="col-md-3 col-md-offset-2 form-column">
+                    <form action="https://tinyletter.com/womenincoding" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/womenincoding', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                        <p>Subscribe for our newsletter!</p>
+                        <p><label for="tlemail">Email Address</label></p><p><input type="text" style="width:100%" name="email" id="tlemail" /></p>
+                        <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" />
+                        <p class="tinyletter"><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p>
+                    </form>
+
+                </div> <!--col-->
+
+         
+<!--                     <ul class="list-inline text-center">
                         <li>
                             <a href="#">
                                 <span class="fa-stack fa-lg">
@@ -162,11 +179,14 @@
                                 </span>
                             </a>
                         </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    </ul> -->
+                
+                <div class="col-xs-12 copyright-div">
+                    <hr>
+                    <p class="copyright text-muted">Copyright &copy; Women in Coding 2016</p>
                 </div>
-            </div>
-        </div>
+            </div> <!--row-->
+        </div> <!--container-->
     </footer>
 
     <!-- jQuery -->
