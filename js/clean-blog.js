@@ -37,4 +37,15 @@ jQuery(document).ready(function($) {
                 this.previousTop = currentTop;
             });
     }
+
+    $('.header-btn').click(function() {
+        $('html, body').animate({
+            scrollTop: $('#upcomingEvents').offset().top
+        }, 2000);
+    });
+
+
+
+
+
 });

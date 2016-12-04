@@ -8,6 +8,10 @@ p a {
 	text-decoration: none;
 }
 
+h2 {
+	text-transform: uppercase;
+}
+
 .class-section p, footer p {
 	margin: 0px;
 }
@@ -97,6 +101,35 @@ button, html input[type=button], input[type=reset], input[type=submit]{
 	font-size: 20px;
 }
 
+.header-btn {
+	background-color: transparent;
+	border: 1px solid white;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+.event {
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.header-btn a {
+	color: white;
+	font-weight: normal;
+}
+
+.header-btn a:hover {
+	text-decoration: none;
+}
+
+.header-btn:hover {
+	background-color: #0085A1;
+	border: 1px solid #0085A1;
+} 
 
 @media only screen and (min-width: 992px) {
 	.about img {
@@ -108,5 +141,9 @@ button, html input[type=button], input[type=reset], input[type=submit]{
 	}
 	form {
 		padding-top: 0px;
+	}
+	.header-btn {
+		margin-top: 80px;
+		font-size: 18px;
 	}
 }
