@@ -25,6 +25,12 @@ p.date {
 	padding-bottom: 10px;
 }
 
+.directions {
+	font-size: 16px;
+	font-style: italic;
+	color: #161648;
+}
+
 .about {
 	text-align: center;
 }
