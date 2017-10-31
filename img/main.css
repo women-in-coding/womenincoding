@@ -1,6 +1,3 @@
-body {
-	font-size: 18px;
-}
 a {
 	color: #CA3B67;
 	font-weight: bold;
@@ -13,11 +10,6 @@ p a {
 
 h2 {
 	text-transform: uppercase;
-	font-size: 24px;
-}
-
-h3 {
-	font-size: 20px;
 }
 
 .class-section p, footer p {
@@ -150,10 +142,8 @@ button, html input[type=button], input[type=reset], input[type=submit]{
 
 .sponsorship-section img {
 	position: relative;
-	width: 200px;
+	width: 150px;
 	padding-top: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 .about .sponsorship-section img {
 	position: relative;
@@ -162,13 +152,12 @@ button, html input[type=button], input[type=reset], input[type=submit]{
 }
 
 @media only screen and (min-width: 992px) {
-	.team-member {
-		margin-bottom: 50px;
-		margin-top: 25px;
-	}
 	.about img {
 		width: 100%;
 		padding-top: 50px;
+	}
+	.about hr.small {
+		display: none;
 	}
 	form {
 		padding-top: 0px;
